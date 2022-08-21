@@ -16,3 +16,10 @@
 - I used node.js as a javascript runtime environment
 - i used sharp library to resize the image, express to set up my server
 - i used jasmine library for testing and ESlint and prettier for clean organized fully functioning code
+### scripts: 
+ -   lint: ```npx eslint src/**/*.ts"```
+ -  prettier: ``` npx prettier --write src/app/**/*.ts ```
+ -   build :``` npx tsc```
+ -   jasmine :``` jasmine```
+ -   test : ``` npm run build && npm run jasmine```
+ -   start : ``` nodemon src/app/server.ts```
